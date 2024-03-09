@@ -1,23 +1,16 @@
 <template>
-  <div>
-    <Hedr />
-  </div>
-  <div></div>
-  <div>
-    <Footr />
-  </div>
+	<div>
+		<Hedr />
+	</div>
+	<RouterView />
 </template>
 
 <script>
-import Hedr from './components/Hedr.vue'
-import Footr from './components/Footr.vue'
-
+import Hedr from "./components/Hedr.vue";
+import { RouterView } from "vue-router";
 export default {
-  components: {
-    Hedr,
-    Footr
-  }
-}
+	components: {
+		Hedr,
+	},
+};
 </script>
-
-<style></style>
