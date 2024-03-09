@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "bui":"bun run build",
+    "bui": "bun run build",
     "build": " vue-tsc && vite build",
     "preview": "vite preview"
   },
