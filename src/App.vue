@@ -2,7 +2,7 @@
 	<div>
 		<Hedr />
 	</div>
-<div class="h-[700px] w-dvw bg-slate-400 pt-[60px]"> 
+<div class="h-[700px] w-full bg-slate-400 pt-[60px]"> 
 	<RouterView />
 
 </div>

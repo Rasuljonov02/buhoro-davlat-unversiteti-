@@ -1,30 +1,32 @@
 <script>
 import { RouterLink } from "vue-router";
 
-
 export default {
-	data() {
-		return {};
-	},
-	components: {
-		RouterLink,
-	},
-	methods: {
+  data() {
+    return {};
+  },
+  components: {
+    RouterLink,
+  },
+  methods: {
     toggleMenu() {
       const btn = document.getElementById("btn");
       const menu = document.getElementById("menu-2");
-      
+
       const isExpanded = btn.getAttribute("aria-expanded") === "true";
-      
-      // Tugmani bosganda, aria-expanded qiymatini yopilgan holga o'tkazamiz
+
+      // Toggle the aria-expanded attribute
       btn.setAttribute("aria-expanded", !isExpanded);
-      
-      // Menuni yashirish yoki ko'rsatish
+
+      // Toggle the visibility of the menu
       if (isExpanded) {
         menu.classList.add("hidden");
       } else {
         menu.classList.remove("hidden");
       }
+    },
+    scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   }
 };
@@ -33,7 +35,7 @@ export default {
 <template>
 	<!-- <div class="grid place-items-center bg-slate-400 min-w-[300px]"></div> -->
 
-	<header>
+	<header class="fixed w-full">
 		<nav class="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
 			<div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
 				<a to="/" class="flex items-center">
@@ -87,7 +89,7 @@ export default {
 					<ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
 						<li>
 							<RouterLink
-								to="/"
+							@click.native="scrollToTop"	to="/"
 								class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
 							>
 								Bosh sahifa
@@ -95,7 +97,7 @@ export default {
 						</li>
 						<li>
 							<RouterLink
-								to="/Ittifoq"
+							@click.native="scrollToTop"	to="/Ittifoq"
 								class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
 							>
 								Yoshlar Ittifoqi
@@ -103,7 +105,7 @@ export default {
 						</li>
 						<li>
 							<RouterLink
-								to="/Tuzilma"
+							@click.native="scrollToTop"	to="/Tuzilma"
 								class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
 							>
 								Tuzilma
@@ -111,7 +113,7 @@ export default {
 						</li>
 						<li>
 							<RouterLink
-								to="/Litsey"
+							@click.native="scrollToTop"	to="/Litsey"
 								class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
 							>
 								Litsey Haqida
@@ -119,7 +121,7 @@ export default {
 						</li>
 						<li>
 							<RouterLink
-								to="/Faxrimiz"
+							@click.native="scrollToTop"	to="/Faxrimiz"
 								class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
 							>
 								Bizning Faxrimiz
@@ -127,7 +129,7 @@ export default {
 						</li>
 						<li>
 							<RouterLink
-								to="/Boglan"
+							@click.native="scrollToTop"	to="/Boglan"
 								class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
 							>
 								Bog'lanish
@@ -135,7 +137,7 @@ export default {
 						</li>
 						<li>
 							<RouterLink
-								to="/Rahbariat"
+							@click.native="scrollToTop"	to="/Rahbariat"
 								class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
 							>
 								Raxbariat

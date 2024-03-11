@@ -30,56 +30,64 @@
 	
 				
 				<div
-					class=" justify-between items-center flex-col  lg:flex lg:w-auto lg:order-1"
+					@click.native="scrollToTop"class=" justify-between items-center flex-col  lg:flex lg:w-a
+          uto lg:order-1"
 					id="mobile-menu-2"
 				>
         <h1 class="text-[40px] font-Arial font-[300]">Havolalar</h1>
 					<ul class="flex gap-6 flex-col mt-4 font-medium ">
             <li>
                 <RouterLink
-                  to="/"
+                @click.native="scrollToTop" 
+                to="/"
                 >
                   Bosh sahifa
                 </RouterLink>
               </li>
 						<li>
 							<RouterLink
-								to="/Ittifoq"
+							@click.native="scrollToTop"
+              to="/Ittifoq"
 							>
 								Yoshlar Ittifoqi
 							</RouterLink>
 						</li>
 						<li>
 							<RouterLink
-								to="/Tuzilma"
+							@click.native="scrollToTop"
+              to="/Tuzilma"
 							>
 								Tuzilma
 							</RouterLink>
 						</li>
 						<li>
 							<RouterLink
-								to="/Litsey"
+							@click.native="scrollToTop"
+              to="/Litsey"
 							>
 								Litsey Haqida
 							</RouterLink>
 						</li>
 						<li>
 							<RouterLink
-								to="/Faxrimiz"
+							@click.native="scrollToTop"
+              to="/Faxrimiz"
 							>
 								Bizning Faxrimiz
 							</RouterLink>
 						</li>
 						<li>
 							<RouterLink
-								to="/Boglan"
+							@click.native="scrollToTop"
+              to="/Boglan"
 							>
 								Bog'lanish
 							</RouterLink>
 						</li>
 						<li>
 							<RouterLink
-								to="/Rahbariat"
+							@click.native="scrollToTop"
+              to="/Rahbariat"
 							>
 								Raxbariat
 							</RouterLink>
@@ -126,8 +134,13 @@ export default {
 	},
 	components: {
 		RouterLink,
-	},
-};
+	},   methods: {
+    scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  }
+  }
+
 </script>
 
 <style>
