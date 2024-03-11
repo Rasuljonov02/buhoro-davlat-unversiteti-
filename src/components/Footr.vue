@@ -101,7 +101,20 @@
 
       </div>
    </div>
+
+
+
+
+   
   </div>
+  <div class="bg-blue-600  text-whitelg p-3">
+   <div class="flex items-center justify-between">
+    <h2 class="text-white pl-4">Copyright © 2024, litsey.buxdu.uz</h2>
+    <p class="pr-7">
+      <a href="https://www.facebook.com/"><img src="@/img/fec.png" alt=""></a>
+    </p>
+   </div>
+   </div>
 </template>
 
 <script>
