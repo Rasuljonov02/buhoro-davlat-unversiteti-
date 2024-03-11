@@ -1,6 +1,7 @@
 <script>
 import { RouterLink } from "vue-router";
 
+
 export default {
 	data() {
 		return {};
@@ -8,6 +9,24 @@ export default {
 	components: {
 		RouterLink,
 	},
+	methods: {
+    toggleMenu() {
+      const btn = document.getElementById("btn");
+      const menu = document.getElementById("menu-2");
+      
+      const isExpanded = btn.getAttribute("aria-expanded") === "true";
+      
+      // Tugmani bosganda, aria-expanded qiymatini yopilgan holga o'tkazamiz
+      btn.setAttribute("aria-expanded", !isExpanded);
+      
+      // Menuni yashirish yoki ko'rsatish
+      if (isExpanded) {
+        menu.classList.add("hidden");
+      } else {
+        menu.classList.remove("hidden");
+      }
+    }
+  }
 };
 </script>
 
@@ -29,11 +48,14 @@ export default {
 				</a>
 				<div class="flex items-center lg:order-2">
 					<button
-						data-collapse-toggle="mobile-menu-2"
-						type="button"
-						class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-						aria-controls="mobile-menu-2"
-						aria-expanded="false"
+					id="btn"
+  data-collapse-toggle="btn"
+  type="button"
+  class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+  aria-controls="menu-2"
+  aria-expanded="false"
+  @click="toggleMenu"
+
 					>
 						<span class="sr-only">Open main menu</span>
 						<svg
@@ -64,7 +86,7 @@ export default {
 				</div>
 				<div
 					class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
-					id="mobile-menu-2"
+					id="menu-2"
 				>
 					<ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
 						<li>

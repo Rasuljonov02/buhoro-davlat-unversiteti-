@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "bui":"npm run build",
     "build": "vite build",
     "preview": "vite preview",
     "format": "prettier --write src/"
