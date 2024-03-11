@@ -1,5 +1,5 @@
 <template>
-  <div class="min-w-[450px] bg-[#26282c] text-white mt-10">
+  <div class="min-w-[400px] bg-[#26282c] text-white mt-10">
     <div class="">
       <!-- Main heading -->
       <h2 class="font-Arial text-[35px] font-extrabold">Karakul Lyceum</h2>
