@@ -5,25 +5,24 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "bui":"npm run build",
+    "bui": "npm run build",
     "build": "vite build",
     "preview": "vite preview",
     "format": "prettier --write src/"
   },
   "dependencies": {
     "@rollup/plugin-node-resolve": "^15.2.3",
+    "@splidejs/splide-extension-auto-scroll": "^0.5.3",
+    "@splidejs/vue-splide": "^0.6.12",
     "ant-design-vue": "4.x",
     "axios": "^1.6.7",
-
     "vue": "^3.4.15",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.3.3",
     "@vitejs/plugin-vue": "^5.0.4",
- 
     "autoprefixer": "latest",
-
     "lint-staged": "^15.2.2",
     "postcss": "^8.4.35",
     "tailwindcss": "latest",
