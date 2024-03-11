@@ -2,10 +2,10 @@
   <div
   class="pl-[50px] pr-[50px]">
  <h1>bosh Component</h1>
-  <div class="min-w-[400px] flex items-center flex-col">
-    <div class="min-w-[400px] ">
-      <h1 class="font-Arial text-[28px] sm:text-[18px] font-[500]">Bizning yo'nalishlar</h1>
-    <h2 class="font-Arial sm:text-[25px] text-[40px] font-bold ">Ushbu yo'nalishlarda maqola berishingiz mumkin</h2>
+  <div class="min-w-[240px] flex items-center flex-col">
+    <div class="min-w-[400px] p-3">
+      <h1 class="font-Arial w-[200px] lg:text-[20px] lg:w-full font-[500px]">Bizning yo'nalishlar</h1>
+    <h2 class="font-Arial w-[250px] lg:text-[40px] lg:w-full font-bold ">Ushbu yo'nalishlarda maqola berishingiz mumkin</h2>
     </div>
     <!-- slider  -->
     <div class="swiffy-slider mt-5 flex items-center  w-[150px] sm:min-w-[500px] slider-item-show4 slider-item-snapstart slider-nav-round slider-nav-dark slider-nav-sm slider-nav-autoplay slider-nav-autopause slider-indicators-dark slider-indicators-highlight slider-indicators-sm slider-nav-animation-zoomout slider-nav-animation-fast" data-slider-nav-autoplay-interval="2000">
