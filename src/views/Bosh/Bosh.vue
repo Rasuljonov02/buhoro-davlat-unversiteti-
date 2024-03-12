@@ -1,6 +1,6 @@
 <template>
   <div
-  class="pl-[50px] pr-[50px]">
+  class="">
  <h1>bosh Component</h1>
   <div class="min-w-[240px] flex items-center flex-col">
     <div class="min-min-w-[400px] p-3">
