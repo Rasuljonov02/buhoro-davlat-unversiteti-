@@ -1,6 +1,5 @@
 <template>
-  <div
-  class="">
+  <div>
  <h1>bosh Component</h1>
   <div class="min-w-[240px] flex items-center flex-col">
     <div class="min-min-w-[400px] p-3">
@@ -31,7 +30,7 @@
             </div>
         </li>
         <li>
-            <div id="slide5"><img class="sm:w-[150px] lg-w-[400px]" src="@/img/slider/5.jpg" alt="">
+            <div id="slide5"><img class="sm:w-[150px] lg:w-[400px]" src="@/img/slider/5.jpg" alt="">
             <p  class="text-inherit sm:w-[100px] lg:min-w-[300px] text-[30px]">Turizm va Iqtisoq</p>
             </div>
         </li>
@@ -40,9 +39,9 @@
               <p class="text-inherit sm:w-[100px] lg:min-w-[300px] text-[30px]">Jismoniy tarbiya, sport mashhulotlari nazaryasi va metodika</p>
             </div>
         </li>
-        
+
         <li>
-            <div id="slide8"><img class="sm:w-[150px] lg-w-[400px]" src="@/img/slider/8.jpg" alt="">
+            <div id="slide8"><img class="sm:w-[150px] lg:w-[400px]" src="@/img/slider/8.jpg" alt="">
             <p  class="text-inherit sm:w-[100px] lg:min-w-[300px] text-[30px]">Tarix va Falsafa</p></div>
         </li>
         <li>
@@ -51,10 +50,10 @@
             </div>
         </li>
         <li>
-            <div id="slide9"><img class="sm:w-[150px] ln-w-[400px]" src="@/img/slider/10.jpg" alt="">
+            <div id="slide9"><img class="sm:w-[150px] lg-w-[400px]" src="@/img/slider/10.jpg" alt="">
             <p class="text-inherit sm:w-[100px] lg:min-w-[300px] text-[30px]">Tibbiyot</p>
             </div>
-        </li> 
+        </li>
         <li>
             <div id="slide9"><img class="sm:w-[150px] lg:w-[400px]" src="@/img/slider/12.jpg" alt="">
               <p class="text-inherit sm:w-[100px] lg:min-w-[300px] text-[30px]">Texnika fanlari</p>
@@ -83,7 +82,7 @@
 </div>
   </div>
 </div>
- 
+
 </template>
 
 
@@ -91,7 +90,7 @@
 
 export default {
   mounted() {
-    
+
   },
 };
 
