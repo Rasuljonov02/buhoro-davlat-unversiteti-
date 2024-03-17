@@ -9,7 +9,7 @@
   </div>
 
   <div
-    class="min-w-[240px] p-5 grid place-items-center md:pl-[30px] md:pr-[30px] lg:pl-[80px] lg:pr-[80px]"
+    class="min-w-[240px] p-5grid place-items-center md:pl-[30px] md:pr-[30px] lg:pl-[80px] lg:pr-[80px]"
   >
     <div class="bg-blue-600 min-w-[300px] h-[50px] lg:w-full grid place-items-center">
       <h3 class="font-Arial lg:text-[23px] md:text-[18px] text-[15px]">
