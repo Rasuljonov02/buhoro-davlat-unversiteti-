@@ -7,6 +7,10 @@ import Litsey from '../views/Litsey/Litsey.vue'
 import Rahbariat from '../views/Rahbariyat/Rahbariat.vue'
 import Tuzilma from '../views/Tuzilma/Tuzilma.vue'
 import Yangilik from '../views/Yangilik/Yangilik.vue'
+import Direktor from '../views/Rahbariyat/app/Direktor.vue'
+import MMIBDO from '../views/Rahbariyat/app/MMIBDO.vue'
+import OIBDO from '../views/Rahbariyat/app/OIBDO.vue'
+import XIBDO from '../views/Rahbariyat/app/XIBDO.vue'
 
 
 const router = createRouter({
@@ -52,7 +56,27 @@ const router = createRouter({
      path: '/yangilik',
      name: 'yangilik',
      component: Yangilik
-   }
+   },
+   {
+    path: '/Bozorov-Nemat-Ergashovich',
+    name: 'OIBDO',
+    component: OIBDO
+  },
+  {
+    path: '/Мамиров-Феруз-Тўрахонович',
+    name: 'MMIBDO',
+    component: MMIBDO
+  },
+  {
+    path: '/Jumaqulov-G`olib-asanovich',
+    name: 'Direktor',
+    component: Direktor
+  },
+  {
+    path: '/Ergashev-Qalandar-Sharopovich',
+    name: 'XIBDO',
+    component: XIBDO
+  }
  ]
 });
 

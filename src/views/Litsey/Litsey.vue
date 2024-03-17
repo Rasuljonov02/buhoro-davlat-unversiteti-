@@ -2,20 +2,20 @@
   <div data-aos="fade-up">
     <h1
       id="sozchiqaradi"
-      class="wow fadeInUp grid place-items-center text-white font-bold font-Arial lg:text-[45px] md:text-[35px] text-[25px] text-center pt-3"
+      class="wow fadeInUp h-[140px] md:h-auto grid place-items-center text-white font-bold font-Arial lg:text-[45px] md:text-[35px] text-[25px] text-center pt-3"
       data-wow-duration="0.8s"
       data-wow-delay="0.2s"
     ></h1>
   </div>
 
+  <div class="bg-blue-600 min-w-[300px] h-[50px] lg:w-full grid place-items-center">
+    <h3 class="font-Arial text-white lg:text-[23px] md:text-[18px] text-[15px]">
+      You are here: Home / Litsey haqida
+    </h3>
+  </div>
   <div
-    class="min-w-[240px] p-5grid place-items-center md:pl-[30px] md:pr-[30px] lg:pl-[80px] lg:pr-[80px]"
+    class="min-w-[240px] p-5 grid-1 place-items-center md:pl-[30px] md:pr-[30px] lg:pl-[80px] lg:pr-[80px]"
   >
-    <div class="bg-blue-600 min-w-[300px] h-[50px] lg:w-full grid place-items-center">
-      <h3 class="font-Arial lg:text-[23px] md:text-[18px] text-[15px]">
-        You are here: Home / Litsey haqida
-      </h3>
-    </div>
     <div data-aos="fade-left" class="flex gap-5 flex-col mt-7">
       <div class="flex items-center flex-wrap justify-around">
         <img class="w-[300px] h-[450px]" src="@/img/dir.jpg" alt="" />
