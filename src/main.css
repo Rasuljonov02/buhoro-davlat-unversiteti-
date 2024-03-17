@@ -1,3 +1,11 @@
-.active{
- color: #0000ff50;
+.active {
+  color: #0000ff50;
+}
+#sozchiqaradi {
+  width: 100%;
+  height: 250px;
+  background-image: url(./img//ban.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
 }

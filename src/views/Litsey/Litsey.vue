@@ -1,14 +1,20 @@
 <template>
   <div data-aos="fade-up">
-    <h1 class="font-bold font-Arial lg:text-[45px] md:text-[35px] text-[25px] text-center pt-3">
-      Litsey haqida
-    </h1>
+    <h1
+      id="sozchiqaradi"
+      class="wow fadeInUp grid place-items-center text-white font-bold font-Arial lg:text-[45px] md:text-[35px] text-[25px] text-center pt-3"
+      data-wow-duration="0.8s"
+      data-wow-delay="0.2s"
+    ></h1>
   </div>
 
   <div
-    class="min-w-[240px] p-5 grid place-items-center md:pl-[30px] md:pr-[30px] lg:pl-[80px] lg:pr-[80px]"
+    class="min-w-[240px] grid place-items-center md:pl-[30px] md:pr-[30px] lg:pl-[80px] lg:pr-[80px]"
   >
-    <div data-aos="fade-left" class="flex gap-5 flex-col">
+    <div class="bg-blue-600 min-w-[300px] h-[50px] lg:w-full grid place-items-center">
+      <h3 class="text-white text-[25px]">You are here: Home / Litsey haqida</h3>
+    </div>
+    <div data-aos="fade-left" class="flex gap-5 flex-col mt-7">
       <div class="flex items-center flex-wrap justify-around">
         <img class="w-[300px] h-[450px]" src="@/img/dir.jpg" alt="" />
         <p class="max-w-[500px] font-Arial lg:text-[23px] md:text-[18px] text-[15px]">
@@ -88,9 +94,26 @@
     </div>
   </div>
 </template>
-
 <script>
-export default {}
+import Typed from 'typed.js'
+
+export default {
+  mounted() {
+    let options = {
+      strings: ['Litsey haqida'],
+      typeSpeed: 50,
+      startDelay: 1000,
+      loop: true,
+      loopCount: Infinity,
+      backSpeed: 50,
+      backDelay: 400,
+      showCursor: true,
+      cursorChar: ''
+    }
+
+    let typed = new Typed('#sozchiqaradi', options)
+  }
+}
 </script>
 
 <style></style>
