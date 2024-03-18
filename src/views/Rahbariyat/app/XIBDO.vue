@@ -2,7 +2,7 @@
 export default {}
 </script>
 <template>
-  <div class="p-6 w-full grid place-items-center">
+  <div data-aos="zoom-in" class="p-6 w-full grid place-items-center">
     <div>
       <div>
         <h1
