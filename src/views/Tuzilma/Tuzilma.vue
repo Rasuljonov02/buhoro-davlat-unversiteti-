@@ -17,7 +17,7 @@
     <div class="min-w-[300px] flex flex-col p-6 gap-5">
       <span class="flex items-center gap-7 flex-wrap justify-between">
         <h1>2021-yilning 4-choragi uchun debitor kreditor haqidagi ma'lumot</h1>
-        <p class="hover:scale-110">
+        <p class="cursor-pointer hover:scale-110">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
@@ -38,7 +38,7 @@
           2021 yil uchun byudjet mablag`laridan 4-chorak bo`yicha xarajatlar
           to`g`risida ma'lumot
         </h1>
-        <p class="hover:scale-110">
+        <p class="cursor-pointer hover:scale-110">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
@@ -59,7 +59,7 @@
           2021 yil uchun byudjetdan tashqari mablag`lar 4-chorak hisoboti
           bo`yicha ma'lumot
         </h1>
-        <p class="hover:scale-110">
+        <p class="cursor-pointer hover:scale-110">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
@@ -77,7 +77,7 @@
 
       <span class="flex items-center gap-7 flex-wrap justify-between">
         <h1>2021 yil uchun 4-chorak moliyaviy natijalar bo`yicha balans.</h1>
-        <p class="hover:scale-110">
+        <p class="cursor-pointer hover:scale-110">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
@@ -95,7 +95,7 @@
       <br />
       <span class="flex items-center gap-7 flex-wrap justify-between">
         <h1>2022-yilning 1-choragi uchun debitor kreditor haqidagi ma'lumot</h1>
-        <p class="hover:scale-110">
+        <p class="cursor-pointer hover:scale-110">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
@@ -116,7 +116,7 @@
           2022 yil uchun byudjet mablag`laridan 1-chorak bo`yicha xarajatlar
           to`g`risida ma'lumot
         </h1>
-        <p class="hover:scale-110">
+        <p class="cursor-pointer hover:scale-110">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
@@ -137,7 +137,7 @@
           2022 yil uchun byudjetdan tashqari mablag`lar 1-chorak hisoboti
           bo`yicha ma'lumot
         </h1>
-        <p class="hover:scale-110">
+        <p class="cursor-pointer hover:scale-110">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
@@ -155,7 +155,7 @@
 
       <span class="flex items-center gap-7 flex-wrap justify-between">
         <h1>2022 yil uchun 1-chorak moliyaviy natijalar bo`yicha balans.</h1>
-        <p class="hover:scale-110">
+        <p class="cursor-pointer hover:scale-110">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
@@ -173,7 +173,7 @@
       <br />
       <span class="flex items-center gap-7 flex-wrap justify-between">
         <h1>2022-yilning 2-choragi uchun debitor kreditor haqidagi ma'lumot</h1>
-        <p class="hover:scale-110">
+        <p class="cursor-pointer hover:scale-110">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
@@ -194,7 +194,7 @@
           2022 yil uchun byudjet mablag`laridan 2-chorak bo`yicha xarajatlar
           to`g`risida ma'lumot
         </h1>
-        <p class="hover:scale-110">
+        <p class="cursor-pointer hover:scale-110">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
@@ -215,7 +215,7 @@
           2022 yil uchun byudjetdan tashqari mablag`lar 2-chorak hisoboti
           bo`yicha ma'lumot
         </h1>
-        <p class="hover:scale-110">
+        <p class="cursor-pointer hover:scale-110">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
@@ -233,7 +233,7 @@
 
       <span class="flex items-center gap-7 flex-wrap justify-between">
         <h1>2022 yil uchun 2-chorak moliyaviy natijalar bo`yicha balans.</h1>
-        <p class="hover:scale-110">
+        <p class="cursor-pointer hover:scale-110">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
